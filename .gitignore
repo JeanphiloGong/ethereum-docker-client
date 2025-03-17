@@ -1,0 +1,16 @@
+# Docker related
+*.tar
+*.tar.gz
+*.log
+
+# Ignore data
+eth-data/
+
+# Environment files
+.env
+
+# IDE-specific (optional)
+/.vscode/
+/.idea/
+
+
