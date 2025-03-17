@@ -16,4 +16,4 @@ RUN add-apt-repository -y ppa:ethereum/ethereum && \
 EXPOSE 8545 30303 30303/udp
 
 # Default command to run geth (Ethereum client)
-CMD ["geth", "--http", "--http.addr", "0.0.0.0", "--http.api", "eth,net,web3,personal", "--syncmode", "fast"]
+CMD ["geth", "--http", "--http.addr", "0.0.0.0", "--http.api", "eth,net,web3,personal", "--syncmode", "snap"]
